@@ -1,6 +1,6 @@
 <?php
 
-namespace Swis\JsonApi\Tests\Fixtures\Guzzle;
+namespace Swis\Guzzle\Fixture\Tests;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
