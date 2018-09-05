@@ -5,6 +5,7 @@
 [![Software License](https://img.shields.io/packagist/l/swisnl/guzzle-fixture-handler.svg)](LICENSE) 
 [![Run Status](https://api.shippable.com/projects/5a7da052260fde0600abfc2a/badge?branch=master)](https://app.shippable.com/github/swisnl/guzzle-fixture-handler)
 [![Coverage Badge](https://api.shippable.com/projects/5a7da052260fde0600abfc2a/coverageBadge?branch=master)](https://app.shippable.com/github/swisnl/guzzle-fixture-handler)
+[![Made by SWIS](https://img.shields.io/badge/%F0%9F%9A%80-made%20by%20SWIS-%23D9021B.svg)](https://www.swis.nl)
 
 This is a fixture [handler](http://docs.guzzlephp.org/en/stable/handlers-and-middleware.html) for Guzzle 6 and is meant for testing purposes.
 It is a temporary wrapper around [swisnl/php-http-fixture-client](https://github.com/swisnl/php-http-fixture-client) for packages that do not support [PHP-HTTP](http://docs.php-http.org/) yet, but require Guzzle 6.
@@ -12,7 +13,7 @@ It is a temporary wrapper around [swisnl/php-http-fixture-client](https://github
 ## Install
 
 ``` bash
-composer require --dev swisnl/guzzle-fixture-handler
+$ composer require --dev swisnl/guzzle-fixture-handler
 ```
 
 ## Usage
@@ -32,11 +33,19 @@ $response = $client->send(new Request(...));
 
 As this is only a wrapper, please see the [documentation of swisnl/php-http-fixture-client](https://github.com/swisnl/php-http-fixture-client#fixture-mapping) for more information about using the fixtures.
 
+## Change log
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
 ## Testing
 
 ``` bash
-composer test
+$ composer test
 ```
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
 
 ## Security
 
@@ -44,4 +53,8 @@ If you discover any security related issues, please email security@swis.nl inste
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE) for more information.
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## SWIS
+
+[SWIS](https://www.swis.nl) is a web agency from Leiden, the Netherlands. We love working with open source software. 
