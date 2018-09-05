@@ -4,19 +4,11 @@ All notable changes to `swisnl/guzzle-fixture-handler` will be documented in thi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## NEXT - YYYY-MM-DD
-
-### Added
-- Nothing
-
-### Deprecated
-- Nothing
+## [1.0.1] - 2018-02-09
 
 ### Fixed
-- Nothing
+- Fixed namespace of HandlerTest.
 
-### Removed
-- Nothing
+## [1.0.0] - 2018-02-09
 
-### Security
-- Nothing
+Initial release.
