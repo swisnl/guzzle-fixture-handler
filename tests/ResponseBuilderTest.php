@@ -2,12 +2,12 @@
 
 namespace Swis\Guzzle\Fixture\Tests;
 
+use function GuzzleHttp\Psr7\stream_for;
 use Http\Discovery\MessageFactoryDiscovery;
 use PHPUnit\Framework\TestCase;
 use Swis\Guzzle\Fixture\ResponseBuilder;
 use Swis\Http\Fixture\MockNotFoundException;
 use Swis\Http\Fixture\ResponseBuilderInterface;
-use function GuzzleHttp\Psr7\stream_for;
 
 class ResponseBuilderTest extends TestCase
 {
