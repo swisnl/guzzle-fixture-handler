@@ -17,7 +17,7 @@ class HandlerTest extends TestCase
     public function it_calls_the_response_builder_on_invoke()
     {
         $request = new Request('GET', new Uri('http://example.com'));
-        /** @var \PHPUnit_Framework_MockObject_MockObject|\Swis\Http\Fixture\ResponseBuilderInterface $responseBuilder */
+        /** @var \PHPUnit\Framework\MockObject\MockObject&\Swis\Http\Fixture\ResponseBuilderInterface $responseBuilder */
         $responseBuilder = $this->getMockBuilder(ResponseBuilderInterface::class)->getMock();
         $responseBuilder->expects($this->once())
             ->method('build')
