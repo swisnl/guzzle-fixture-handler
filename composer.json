@@ -1,6 +1,6 @@
 {
   "name": "swisnl/guzzle-fixture-handler",
-  "description": "Fixture handler for Guzzle 6",
+  "description": "Fixture handler for Guzzle 6+",
   "type": "library",
   "keywords": [
     "swisnl",
@@ -22,7 +22,7 @@
   ],
   "require": {
     "php": "^7.0",
-    "guzzlehttp/guzzle": "^6.0",
+    "guzzlehttp/guzzle": "^6.0|^7.0",
     "swisnl/php-http-fixture-client": "^2.1"
   },
   "require-dev": {

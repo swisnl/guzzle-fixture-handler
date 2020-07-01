@@ -1,15 +1,15 @@
-# Fixture handler for Guzzle 6
+# Fixture handler for Guzzle 6+
 
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/swisnl/guzzle-fixture-handler.svg)](https://packagist.org/packages/swisnl/guzzle-fixture-handler)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/swisnl/guzzle-fixture-handler.svg)](https://packagist.org/packages/swisnl/guzzle-fixture-handler)
-[![Software License](https://img.shields.io/packagist/l/swisnl/guzzle-fixture-handler.svg)](LICENSE) 
+[![Software License](https://img.shields.io/packagist/l/swisnl/guzzle-fixture-handler.svg)](LICENSE)
 [![Build Status](https://travis-ci.org/swisnl/guzzle-fixture-handler.svg?branch=master)](https://travis-ci.org/swisnl/guzzle-fixture-handler)
 [![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/swisnl/guzzle-fixture-handler.svg)](https://scrutinizer-ci.com/g/swisnl/guzzle-fixture-handler/?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/swisnl/guzzle-fixture-handler.svg)](https://scrutinizer-ci.com/g/swisnl/guzzle-fixture-handler/?branch=master)
 [![Made by SWIS](https://img.shields.io/badge/%F0%9F%9A%80-made%20by%20SWIS-%23D9021B.svg)](https://www.swis.nl)
 
-This is a fixture [handler](http://docs.guzzlephp.org/en/stable/handlers-and-middleware.html) for Guzzle 6 and is meant for testing purposes.
-It is a temporary wrapper around [swisnl/php-http-fixture-client](https://github.com/swisnl/php-http-fixture-client) for packages that do not support [PHP-HTTP](http://docs.php-http.org/) yet, but require Guzzle 6.
+This is a fixture [handler](http://docs.guzzlephp.org/en/stable/handlers-and-middleware.html) for Guzzle 6+ and is meant for testing purposes.
+It is a temporary wrapper around [swisnl/php-http-fixture-client](https://github.com/swisnl/php-http-fixture-client) for packages that do not support [PSR-18: HTTP Client](https://www.php-fig.org/psr/psr-18/) yet, but require Guzzle 6+ explicitly.
 
 ## Install
 
@@ -58,4 +58,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 ## SWIS
 
-[SWIS](https://www.swis.nl) is a web agency from Leiden, the Netherlands. We love working with open source software. 
+[SWIS](https://www.swis.nl) is a web agency from Leiden, the Netherlands. We love working with open source software.
