@@ -3,6 +3,7 @@
 namespace Swis\Guzzle\Fixture;
 
 use GuzzleHttp\Handler\MockHandler;
+use GuzzleHttp\Promise\PromiseInterface;
 use Psr\Http\Message\RequestInterface;
 use Swis\Http\Fixture\ResponseBuilderInterface;
 
@@ -35,9 +36,9 @@ class Handler extends MockHandler
      *
      * @throws \RuntimeException
      *
-     * @return \GuzzleHttp\Promise\Promise|\GuzzleHttp\Promise\PromiseInterface
+     * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function __invoke(RequestInterface $request, array $options)
+    public function __invoke(RequestInterface $request, array $options): PromiseInterface
     {
         $this->append($this->responseBuilder->build($request));
 
