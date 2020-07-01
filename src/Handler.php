@@ -9,7 +9,7 @@ use Swis\Http\Fixture\ResponseBuilderInterface;
 class Handler extends MockHandler
 {
     /**
-     * @var string|\Swis\Http\Fixture\ResponseBuilderInterface
+     * @var \Swis\Http\Fixture\ResponseBuilderInterface
      */
     protected $responseBuilder;
 
