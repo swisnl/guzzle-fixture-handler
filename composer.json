@@ -27,6 +27,7 @@
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^2.16",
+    "guzzlehttp/psr7": "^1.7|^2.0",
     "phpunit/phpunit": "^8.0|^9.0"
   },
   "autoload": {
