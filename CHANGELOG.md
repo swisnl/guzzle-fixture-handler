@@ -4,6 +4,18 @@ All notable changes to `swisnl/guzzle-fixture-handler` will be documented in thi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## Unreleased
+
+- Nothing
+
+## [2.3.0] - 2021-07-12
+
+### Added
+- PHP 8 support
+
+### Removed
+- Dropped PHP <7.2 support
+
 ## [2.2.0] - 2020-07-01
 
 ### Added
