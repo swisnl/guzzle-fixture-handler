@@ -6,6 +6,9 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ## Unreleased
 
+### Changed
+- Bumped swisnl/php-http-fixture-client to v3. Please see [changelog](https://github.com/swisnl/php-http-fixture-client/blob/master/CHANGELOG.md#300---2022-01-10) for all (breaking) changes.
+
 ### Removed
 - Dropped PHP <7.4 support.
 

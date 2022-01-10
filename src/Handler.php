@@ -12,7 +12,7 @@ class Handler extends MockHandler
     /**
      * @var \Swis\Http\Fixture\ResponseBuilderInterface
      */
-    protected $responseBuilder;
+    protected ResponseBuilderInterface $responseBuilder;
 
     /**
      * @param \Swis\Http\Fixture\ResponseBuilderInterface $responseBuilder

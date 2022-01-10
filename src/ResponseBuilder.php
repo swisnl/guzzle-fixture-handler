@@ -4,7 +4,6 @@ namespace Swis\Guzzle\Fixture;
 
 use GuzzleHttp\Psr7\Response;
 use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
 use Swis\Http\Fixture\ResponseBuilder as BaseResponseBuilder;
 
 class ResponseBuilder extends BaseResponseBuilder
@@ -15,16 +14,14 @@ class ResponseBuilder extends BaseResponseBuilder
      * @throws \RuntimeException
      * @throws \Swis\Http\Fixture\MockNotFoundException
      *
-     * @return \Psr\Http\Message\ResponseInterface|\GuzzleHttp\Psr7\Response
+     * @return \GuzzleHttp\Psr7\Response
      */
-    public function build(RequestInterface $request): ResponseInterface
+    public function build(RequestInterface $request): Response
     {
-        $response = new Response(
+        return new Response(
             $this->getMockStatusForRequest($request),
             $this->getMockHeadersForRequest($request),
             $this->getMockBodyForRequest($request)
         );
-
-        return $response;
     }
 }

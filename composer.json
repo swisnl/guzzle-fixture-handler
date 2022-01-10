@@ -23,11 +23,11 @@
   "require": {
     "php": "^7.4|^8.0",
     "guzzlehttp/guzzle": "^6.0|^7.0",
-    "swisnl/php-http-fixture-client": "^2.1"
+    "http-interop/http-factory-guzzle": "^1.2",
+    "swisnl/php-http-fixture-client": "^3.0"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.0",
-    "guzzlehttp/psr7": "^1.7|^2.0",
     "phpunit/phpunit": "^9.5"
   },
   "autoload": {
