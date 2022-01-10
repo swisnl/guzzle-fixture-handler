@@ -6,6 +6,10 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ## Unreleased
 
+- Nothing
+
+## [3.0.0] - 2022-01-10
+
 ### Changed
 - Bumped swisnl/php-http-fixture-client to v3. Please see [changelog](https://github.com/swisnl/php-http-fixture-client/blob/master/CHANGELOG.md#300---2022-01-10) for all (breaking) changes.
 
