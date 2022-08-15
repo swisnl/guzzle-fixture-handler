@@ -8,7 +8,8 @@
     "guzzle",
     "fixture",
     "client",
-    "psr-7"
+    "psr-7",
+    "testing"
   ],
   "homepage": "https://github.com/swisnl/guzzle-fixture-handler",
   "license": "MIT",
