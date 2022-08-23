@@ -4,7 +4,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/swisnl/guzzle-fixture-handler.svg)](https://packagist.org/packages/swisnl/guzzle-fixture-handler)
 [![Software License](https://img.shields.io/packagist/l/swisnl/guzzle-fixture-handler.svg)](LICENSE)
 [![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/swisnl/guzzle-fixture-handler)
-[![Build Status](https://travis-ci.org/swisnl/guzzle-fixture-handler.svg?branch=master)](https://travis-ci.org/swisnl/guzzle-fixture-handler)
+[![Build Status](https://img.shields.io/github/checks-status/swisnl/guzzle-fixture-handler/master?label=tests)](https://github.com/swisnl/guzzle-fixture-handler/actions/workflows/tests.yml)
 [![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/swisnl/guzzle-fixture-handler.svg)](https://scrutinizer-ci.com/g/swisnl/guzzle-fixture-handler/?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/swisnl/guzzle-fixture-handler.svg)](https://scrutinizer-ci.com/g/swisnl/guzzle-fixture-handler/?branch=master)
 [![Made by SWIS](https://img.shields.io/badge/%F0%9F%9A%80-made%20by%20SWIS-%230737A9.svg)](https://www.swis.nl)
